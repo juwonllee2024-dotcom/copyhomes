@@ -1,6 +1,6 @@
 # Verification record
 
-Status: local checks passed; awaiting public CI and release verification.
+Status: public `v0.1.0` release published; post-release documentation update.
 
 ## TDD
 
@@ -53,7 +53,11 @@ as a successful scan.
 
 ## Release identity
 
-- Commit: recorded after all checks pass.
-- CI: recorded after public push and matrix success.
-- Release: recorded after `v0.1.0` is published.
-- Package SHA-256: recorded from exact release assets.
+- Release commit: `a596a094d48831644e50af732b6e53103f72d53c`.
+- CI: [12/12 jobs passed](https://github.com/juwonllee2024-dotcom/copyhomes/actions/runs/33985085192).
+- Release: [`v0.1.0`](https://github.com/juwonllee2024-dotcom/copyhomes/releases/tag/v0.1.0)
+  is public and non-draft.
+- `copyhomes-0.1.0-py3-none-any.whl`: `sha256:850b321b7ae5c7e4240f8bd04d315f0ded1f3f3267f1c46d787742a8a700d677`
+- `copyhomes-0.1.0.tar.gz`: `sha256:0a9a843bb318e2255370503f835f4cb7ca3f1bfff913bdb427e81d17cfcfb404`
+- The release tag points to the release commit above; this documentation
+  update is pushed immediately after publication.
