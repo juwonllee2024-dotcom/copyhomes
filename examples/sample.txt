@@ -1,0 +1,1 @@
+One source file can have several intentional homes.
